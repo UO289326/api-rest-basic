@@ -1,0 +1,20 @@
+{
+  "name": "api-rest-basic",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/UO289326/api-rest-basic#readme",
+  "bugs": {
+    "url": "https://github.com/UO289326/api-rest-basic/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UO289326/api-rest-basic.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
