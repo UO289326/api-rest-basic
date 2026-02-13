@@ -1,0 +1,9 @@
+services:
+  api-rest-basic:
+    image: api-rest-basic # nombre de la imagen del contenedor
+    build: ./  # generación de la imagen a partir de la configuración indicada en Dockerfile
+    container_name: api-rest-basic
+    environment:
+      - PORT=3000  # puerto de escucha del contenedor
+    ports:
+      - "3000:3000"  # redirección a un puerto del sistema anfitrión (izquierda) del puerto de escucha del contenedor (derecha)
